@@ -26,7 +26,7 @@ public class AuthController {
     }
 
     @GetMapping("/admin")
-    @PreAuthorize(value = "hasRole('admin')")
+    @PreAuthorize(value = "hasRole('ADMIN')")
     public String admin(){
         return "ADMIN";
     }
