@@ -20,8 +20,8 @@ import java.util.List;
 public class UserDao {
 
     private static final List<UserDetails> USER_DETAILS= Arrays.asList(
-      new MyUserDetails("2528959216","123456789","ROLE_ADMIN"),
-      new MyUserDetails("2264378768","123456789","ROLE_ADMIN")
+      new MyUserDetails("2528959216","123456789","ADMIN"),
+      new MyUserDetails("zhengshuyu","123456789","USER")
     );
 
     public UserDetails findByUsername(String username){
